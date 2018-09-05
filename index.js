@@ -120,15 +120,12 @@ function moveDodger(e) {
   
   document.addEventListener('keydown', function(e) {
     
-    if (e.which === LEFT_ARROW, RIGHT_ARROW) {
-      e.preventDefault();
-      e.stopPropagation();
-      
-    } 
+
     
     if (e.which === 37) {
       
       moveDodgerLeft();
+      
       
     } else if (e.which === 39) {
       
