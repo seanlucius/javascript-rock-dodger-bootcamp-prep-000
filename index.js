@@ -131,7 +131,8 @@ function moveDodger(e) {
     } else if (e.which === 39) {
       
       moveDodgerRight();
-      
+      e.preventDefault();
+      e.stopPropagation();
       
     }
   });
